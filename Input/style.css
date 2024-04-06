@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center; 
+    
+}
+
+.game-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#roll-btn{
+    background-color: aquamarine;
+    font-size: 3.5rem;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#roll-btn:hover{
+    background-color: rgb(117, 25, 99);
+    transform: scale(1.2);
+}
