@@ -1,4 +1,8 @@
 //Map Method 
+// returns a new Array
+// does not change the size of original array (unlike filter)
+// uses values from original array when making new one
+
 
 const users = [
 
