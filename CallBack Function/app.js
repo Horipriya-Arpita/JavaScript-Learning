@@ -1,11 +1,11 @@
 function makeUpperCase(value) {
-    console.log(value.toUpperCase())
+    //console.log(value.toUpperCase())
 }
 
 //makeUpperCase("arpita");
 
 function reverseString(value) {
-    console.log(value.split('').reverse().join(''));
+    //console.log(value.split('').reverse().join(''));
 }
 function handleName(name, cb){
     const fullname = `${name} das`;
@@ -18,7 +18,7 @@ handleName('arpita',reverseString);
 const button = document.querySelector(".btn");
 
 button.addEventListener('click', function () {
-    console.log('hello world');
+    //console.log('hello world');
 })
 
 //___________________________________________________//
